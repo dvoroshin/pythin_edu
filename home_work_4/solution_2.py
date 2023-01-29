@@ -1,0 +1,5 @@
+data = open('assortiment.txt', mode='r', encoding='utf-8')
+string = data.read()
+list = string.splitlines()
+result = set(list[0].split(', ')).difference(set(list[1].split(', ')))
+print(result)
