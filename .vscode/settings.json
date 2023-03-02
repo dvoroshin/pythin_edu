@@ -1,0 +1,6 @@
+{
+    "python.analysis.extraPaths": [
+        "./seminar_7"
+    ],
+    "python.analysis.typeCheckingMode": "basic"
+}
